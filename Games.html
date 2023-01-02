@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body id="gamespg">
+  <nav>
+    <div class="topnav">
+        <a  href="./signin.html">Sign in</a>
+        <a class="active" href="./Games.html">Games</a>
+        <a href="./contactus.html">Contact us</a>
+        <a href="./Aboutus.html">About us</a>
+        <a href="./index.html">Home</a>
+    </div>
+</nav>
+  <img id="myImg" src="./Resources/Roulette.jpg" alt="roulette" style="width:100%;max-width:300px">
+  <img id="myImg2" src="./Resources/poker.jpg" alt="poker" style="width:100%;max-width:300px">
+  <img id="myImg3" src="./Resources/baccaratclassic.jpg" alt="baccarat" style="width:100%;max-width:300px">
+  <img id="myImg4" src="./Resources/Craps.jpg" alt="craps" style="width:100%;max-width:300px">
+  <img id="myImg5" src="./Resources/Blackjack.jpg" alt="blackjack" style="width:100%;max-width:300px">
+  <img id="myImg6" src="./Resources/Wheeloffortune.jpg" alt="wheel of fortune" style="width:100%;max-width:300px">
+  <img id="myImg7" src="./Resources/Slotmachine.jpg" alt="slots" style="width:100%;max-width:300px;margin-bottom:10%">
+  <img id="myImg8" src="./Resources/Zeus.png" alt="ZeusIII" style="width:100%;max-width:300px">
+  <img id="myImg9" src="./Resources/Gorillachief.png" alt="GorillachiefII" style="width:100%;max-width:300px">
+
+
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" alt="img" id="img01">
+    <div id="caption"></div>
+  </div>
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    var img = document.getElementById("myImg2");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    var img = document.getElementById("myImg3");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    var img = document.getElementById("myImg4");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    var img = document.getElementById("myImg5");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    var img = document.getElementById("myImg6");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    var img = document.getElementById("myImg7");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    var img = document.getElementById("myImg8");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    var img = document.getElementById("myImg9");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+  </script>
+
+</body>
+
+</html>
