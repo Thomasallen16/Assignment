@@ -114,6 +114,16 @@ a {
   width: 20%;
   height: 10%;
 }
+#alert {
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-left: 40%;
+  width: 20%;
+  height: 10%;
+}
+
 
 #contactus {
   background-color: yellow;
